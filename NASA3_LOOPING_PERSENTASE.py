@@ -18,7 +18,7 @@ if kode_pengguna in kodes_benar:
         os.system('cls')
         progress = (i / kode_pengguna) * 100
         print("Process {:.0f}%".format(progress))
-        time.sleep(1.25) 
+        time.sleep(0.7) 
         print()
     print("NASA HACKED")
 else:
@@ -26,6 +26,6 @@ else:
         os.system('cls')
         progress = (i / kode_pengguna) * 100
         print("Process {:.0f}%".format(progress))
-        time.sleep(1.25) 
+        time.sleep(0.7) 
         print()
     print("HACKING FAILED")
